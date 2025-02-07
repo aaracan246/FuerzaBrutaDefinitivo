@@ -1,0 +1,14 @@
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\bin\Debug\net8.0\FuerzaBrutaDefinitivo.exe
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\bin\Debug\net8.0\FuerzaBrutaDefinitivo.deps.json
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\bin\Debug\net8.0\FuerzaBrutaDefinitivo.runtimeconfig.json
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\bin\Debug\net8.0\FuerzaBrutaDefinitivo.dll
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\bin\Debug\net8.0\FuerzaBrutaDefinitivo.pdb
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.AssemblyInfoInputs.cache
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.AssemblyInfo.cs
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.csproj.CoreCompileInputs.cache
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.dll
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\refint\FuerzaBrutaDefinitivo.dll
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.pdb
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.genruntimeconfig.cache
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\ref\FuerzaBrutaDefinitivo.dll
