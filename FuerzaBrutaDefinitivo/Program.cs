@@ -6,6 +6,10 @@ namespace FuerzaBrutaDefinitivo;
 
 public class Program
 {
+    
+    private static ManualResetEvent _doneEvent = new ManualResetEvent(false); // El problema que me daba era que el programa terminaba antes que los hilos.
+    private static string _foundPassword = "Not found.";
+    
     public static void Main()
     {
         List<string> lines = File.ReadLines("C:\\Users\\UsuarioT\\RiderProjects\\FuerzaBrutaDefinitivo\\FuerzaBrutaDefinitivo\\10000-passwords.txt").ToList();
@@ -21,22 +25,41 @@ public class Program
         Console.WriteLine($"Password hasheada: {hashedPassword}.");
 
 
-        foreach (var password in listOfPasswords)
+        // Usamos una pool de hilos:
+        ThreadPool.QueueUserWorkItem(_ =>
         {
-            string hashedPassword2 = HashPassword256(password);
-            if (hashedPassword2 == hashedPassword)
+
+            _foundPassword = DeHashPassword256();
+
+            _doneEvent.Set();
+        });
+        
+        _doneEvent.WaitOne();
+        Console.WriteLine($"Found: {_foundPassword}.");
+        
+        
+        
+        String DeHashPassword256()
+        {
+            foreach (var password in listOfPasswords)
             {
-                Console.WriteLine($"Password revealed: {password}.");
+                string hashedPassword2 = HashPassword256(password);
+                if (hashedPassword2 == hashedPassword)
+                {
+                    return $"Password: {password}";
+
+                }
             }
+            return "";
         }
+
         // Funcioncita pa hashear la password:
         string HashPassword256(string password)
         {
             using var sha256 = SHA256.Create();
-            {
-                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                return BitConverter.ToString(bytes).Replace("-", string.Empty);
-            } 
+            byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+            return BitConverter.ToString(bytes).Replace("-", string.Empty);
+            
         }
     }
 

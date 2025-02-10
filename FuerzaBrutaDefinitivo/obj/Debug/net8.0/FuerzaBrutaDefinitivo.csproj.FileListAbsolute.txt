@@ -12,3 +12,4 @@ C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\
 C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.pdb
 C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.genruntimeconfig.cache
 C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\ref\FuerzaBrutaDefinitivo.dll
+C:\Users\UsuarioT\RiderProjects\FuerzaBrutaDefinitivo\FuerzaBrutaDefinitivo\obj\Debug\net8.0\FuerzaBrutaDefinitivo.sourcelink.json
