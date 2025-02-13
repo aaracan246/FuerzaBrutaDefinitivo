@@ -12,7 +12,8 @@ public class Program
     
     public static void Main()
     {
-        List<string> lines = File.ReadLines("C:\\Users\\UsuarioT\\RiderProjects\\FuerzaBrutaDefinitivo\\FuerzaBrutaDefinitivo\\10000-passwords.txt").ToList();
+        string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        List<string> lines = File.ReadLines($"{projectDirectory}/10000-passwords.txt").ToList();
         List<string> listOfPasswords = lines.ToList();
         
         // Elegimos la password aleatoriamente:
